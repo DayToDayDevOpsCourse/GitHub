@@ -4,11 +4,13 @@
   
   2. Signup/Signin.
   
-  I just want to add a new java project to GitHub repo.
+  Practice: Add a new project to GitHub repo. i.e., add you local project to github server.
 
       1. Crate a new repository in GitHub. 
       
-      Note: Download the git scm https://git-scm.com/ which is the client to communicate with the serevr GitHub.com.
+        Note:
+          1. Download the git scm from https://git-scm.com/ which is the client to communicate with the serevr GitHub.com.
+          2. Download the tortoiseGit from https://tortoisegit.org/ (this is also a client, just try this. Restart your machine if you don't see the colors on the local repo folders/files.)       
 
       2. Clone the GitHub repo to your local machine. (using any client Git bash, TortoiseGit, etc)
 
@@ -25,7 +27,7 @@
 
         Syantax: git add <fileName>  OR git add .
 
-        git add MyFirstJava.java
+        Ex: git add MyFirstJava.java
 
       5. Commit to local repo.
 
@@ -37,4 +39,4 @@
 
         Syntax: git push
 
-        ex: git push 
+        ex: git push
