@@ -4,7 +4,7 @@
   
   2. Signup/Signin.
   
-  Practice: Add a new project to GitHub repo. i.e., add you local project to github server.
+  ### Practice: Add a new project to GitHub repo. i.e., add you local project to github server.
 
       1. Crate a new repository in GitHub. 
       
