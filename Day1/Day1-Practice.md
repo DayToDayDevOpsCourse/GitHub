@@ -40,3 +40,10 @@
         Syntax: git push
 
         ex: git push
+        
+        
+ # Bitbucket
+ 
+      Practice the same above steps with Bitbucket https://bitbucket.org/ (This is the similar tool to GitHub).
+      
+      Parallelly you can learn both the tools since operations(git commands & worlflow, branching, merging, tagging etc) wise both are same.
