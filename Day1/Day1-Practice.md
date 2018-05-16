@@ -47,3 +47,15 @@
       Practice the same above steps with Bitbucket https://bitbucket.org/ (This is the similar tool to GitHub).
       
       Parallelly you can learn both the tools since operations(git commands & worlflow, branching, merging, tagging etc) wise both are same.
+
+
+# Covered topics
+
+      1. What are the unstaged & staged areas.
+      2. How to create a repo in GitHub.
+      3. Added a local project(code/files) to GitHub repo.
+      4. We have Modified the files and committed and then pushed to repo.
+      5. Modified two files & added only one file to stated area and then committed to local repo, finbally pushed to remote repository.
+
+      
+     
