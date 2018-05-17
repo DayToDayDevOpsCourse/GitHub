@@ -54,6 +54,12 @@
       
         Syantax: git checkout -b <newBranchName>.
         
+      10. Update two files. Commit each file individually, and see the log locally how the commits created (date & date, commit-id, HEAD, origin branch etc). "git log".
+      
+      11. From the above step-10, push only one commit.
+      
+        Syntax: git push origin <commit-id>:<branchName>
+        
  # Bitbucket
  
       Practice the same above steps with Bitbucket https://bitbucket.org/ (This is the similar tool to GitHub).
@@ -70,5 +76,6 @@
       5. How to delete a repo.
       6. How to create a new branch from command line.
       7. Inviting users i.e., adding users to your organization.
+      8. Pushing selective commit.
       
      
