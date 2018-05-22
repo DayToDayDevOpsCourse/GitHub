@@ -21,4 +21,5 @@
     20. What is pull request?
     21. How to protect a branch?
     22. Commit hooks?
-    
+    23. How to switch from one branch to another branch?
+    24. 
