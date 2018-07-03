@@ -1,5 +1,4 @@
-Total concepts:
----------------
+# Total concepts:
 
 1. GitHub Intro.
 
