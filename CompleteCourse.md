@@ -34,4 +34,5 @@ Finally, what you learned from GitHub:
     11. How to create a new branch from command line.
     12. Inviting users i.e., adding users to your organization.
     13. Pushing selective commit.
+    14. Git Operations on IDE i.e., STS/Eclipse.
 
