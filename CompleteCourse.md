@@ -9,7 +9,7 @@ Total concepts:
 
 4. Create teams & protecting branches.
 
-5. Branching & Meging (pull requests).
+5. Branching & Merging (pull requests, cherry-pick).
 
 6. Tagging (Jenkins + GitHub + Maven release).
 
