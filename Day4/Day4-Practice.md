@@ -44,7 +44,7 @@
 
         20.1. git show : https://git-scm.com/docs/git-show
         20.2. git log :  https://git-scm.com/docs/git-log
-        20.3. git branch OR git branch -l
+        20.3. git branch Or git branch -l Or git branch -v Or git branch -av
         20.4. git branch -a
         20.5. git branch -r
         20.6. git reset --hard origin/<branchName>   (do some local changes with AND without commit and then run this command, then see what happends)
