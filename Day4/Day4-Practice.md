@@ -62,6 +62,7 @@
                 20.9.4.3. git tag -d <oldTagName> --> removing the old tag from local.
                 20.9.4.4. git push origin :refs/tags/<oldTagName> --> removing the old tag from remote server.
                 20.9.4.5. git push origin --tags --> pushing the local tags to remote server, so that the new server also pushed to remote server.
+            20.9.5. Checkout the tag: git checkout tags/<tagName>.
 
         20.10. Create an orphan branch steps.
             20.10.1. git checkout --orphan <newBranchName>
