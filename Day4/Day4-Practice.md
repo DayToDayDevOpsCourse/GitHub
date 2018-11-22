@@ -152,3 +152,5 @@
       27. Save the credes in windows: git config --global credential.helper wincred
 
       === Preapre a document if you find something new and share with all our DevOps team members. ===
+
+      28. https://help.github.com/articles/duplicating-a-repository/
