@@ -1,1 +1,31 @@
-txt
+[root@ip-172-31-89-91 GitHubDayToDayCourse]# git archive --format=zip --output=day4-sample.zip --prefix=master HEAD Day4/Day4/sampleDir/*
+[root@ip-172-31-89-91 GitHubDayToDayCourse]# ls
+CompleteCourse.md  Day1  Day2  Day3  Day4  day4-sample.zip  GitHub.md  InterviewQuestion  README.md  temp_for_zip_extract
+[root@ip-172-31-89-91 GitHubDayToDayCourse]# ll
+total 16
+-rw-r--r--. 1 root root 1282 Jan 10 06:45 CompleteCourse.md
+drwxr-xr-x. 2 root root   62 Jan 10 06:45 Day1
+drwxr-xr-x. 2 root root   45 Jan 10 06:45 Day2
+drwxr-xr-x. 2 root root   45 Jan 10 06:45 Day3
+drwxr-xr-x. 3 root root  128 Jan 10 06:58 Day4
+-rw-r--r--. 1 root root  178 Jan 10 06:58 day4-sample.zip
+-rw-r--r--. 1 root root 4028 Jan 10 06:45 GitHub.md
+drwxr-xr-x. 2 root root   37 Jan 10 06:45 InterviewQuestion
+-rw-r--r--. 1 root root   56 Jan 10 06:45 README.md
+drwxr-xr-x. 3 root root   24 Jan 10 06:56 temp_for_zip_extract
+[root@ip-172-31-89-91 GitHubDayToDayCourse]# rm -rf temp_for_zip_extract
+[root@ip-172-31-89-91 GitHubDayToDayCourse]# ll
+total 16
+-rw-r--r--. 1 root root 1282 Jan 10 06:45 CompleteCourse.md
+drwxr-xr-x. 2 root root   62 Jan 10 06:45 Day1
+drwxr-xr-x. 2 root root   45 Jan 10 06:45 Day2
+drwxr-xr-x. 2 root root   45 Jan 10 06:45 Day3
+drwxr-xr-x. 3 root root  128 Jan 10 06:58 Day4
+-rw-r--r--. 1 root root  178 Jan 10 06:58 day4-sample.zip
+-rw-r--r--. 1 root root 4028 Jan 10 06:45 GitHub.md
+drwxr-xr-x. 2 root root   37 Jan 10 06:45 InterviewQuestion
+-rw-r--r--. 1 root root   56 Jan 10 06:45 README.md
+[root@ip-172-31-89-91 GitHubDayToDayCourse]# unzip day4-sample.zip -d temp_for_zip_extract
+Archive:  day4-sample.zip
+7b298fc858d8bc6b9bcccd554e8967e1d0c7b477
+   creating: temp_for_zip_extract/masterDay4/
