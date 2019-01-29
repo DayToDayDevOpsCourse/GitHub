@@ -4,7 +4,7 @@
   
   2. Signup/Signin.
   
-  ### Practice-1: Add a new project to GitHub repo under the ORGANIZATION. i.e., add you local project to github ORGANIZATION.
+  ### Practice-1: Add a new project to GitHub repo under the ORGANIZATION. i.e., add your local project to github ORGANIZATION.
   ### Practice-2: Do some changes in server level, and update your local workspace (git pull).
   
       1. Create an ORGANIZATION.
