@@ -48,7 +48,7 @@
       
         Synatx: git pull Or git pull origin <branchName>
         
-        Ex: git pull origina master
+        Ex: git pull origin master
       
       9. Create a new branch in local and then push your new branch to server. 
       
