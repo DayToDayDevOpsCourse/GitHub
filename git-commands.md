@@ -8,6 +8,10 @@
 
             git clone -b <branchName> <gitURL> <destinationPath>
 
+1. status
+
+            git status
+
 1. add
 
             git add file1 file1
@@ -32,7 +36,7 @@
             
             git pull origin master
        
-       fetch vs pull:
+       fetch vs pull: practice
        
             local branche recent commitds are the in .git\refs\heads
             remote branche recent commitds are the in .git\refs\remotes
@@ -49,7 +53,7 @@
 
 1. show
 
-            git show or git show HEAD
+            git show or git show HEAD - it shows recent/head commit id changes
 
 1. commit
 
@@ -58,6 +62,7 @@
             git commit --amend -m "commit message"
 
             practice: 
+            
             git show
 
             git log -3
@@ -124,6 +129,12 @@
 
 1. config
 
+            git config --global user.email "you@example.com"
+
+            git config --global user.name "Your Name"
+            
+            git config -e                                  
+            
 1. log: Refer: https://www.atlassian.com/git/tutorials/git-log
 
             ```
@@ -171,13 +182,41 @@
 
             ```
 
-1. status
-
 1. branch
 
-1. show - it shows recent/head commit id changes
-
+            git branch  or git branch -l
+            
+            git branch -v
+            
+            git branch -a
+            
+            git branch -av
+            
+            git branch -r
+            
+            git branch -vr
+                        
 1. tag
+
+            git tag -a <tagName> <commitID> -m "message here"
+            
+            git push origin <tagName> --> to push this particular tag to remote github repo.
+            
+            git push --tags OR git push --tags origin <branchName> --> to push all the tags of particular branch.
+            
+            git diff <tagName1> <tagName2> --> Differences between two tags (indirectly its difference between two commit-id)
+            
+            git tag -l  --> list of tags, select a tag which one you wants to rename.
+            
+            git tag <newTagName> <oldTagName> --> rename tag.
+            
+            git tag -d <oldTagName> --> removing the old tag from local.
+            
+            git push origin :refs/tags/<oldTagName> --> removing the old tag from remote server.
+            
+            git push origin --tags --> pushing the local tags to remote server, so that the new server also pushed to remote server.
+            
+            git checkout tags/<tagName> --> Checkout the tag
 
 1. reset
 
@@ -204,7 +243,6 @@
 
 1. diff
 
-            ```
             git diff commit-id-1..commit-id-2
 
             git diff commit-id-1 commit-id-2
@@ -220,9 +258,29 @@
             git diff branch-1..branch-2
 
             git diff branch-1..branch-2 > diff-branch1-branch2.patch
-            ```
-
+            
+            git diff <tagName1> <tagName2> --> Differences between two tags (indirectly its difference between two commit-id)
+            
 1. checkout
+
+            git checkout branchName
+            
+            Created  new forked branch:
+            git checkout -b <newBranch>
+            git push origin <newBranch>
+            
+            Created  new orphan branch:
+            git checkout --orphan <newBranchName>            
+            git rm -rf .            
+            echo "new orphan branch" > README.md
+            git add README.md
+            git commit -a -m "adding new orphan branch"
+            git push or git push origin <newBranchName>
+            
+            rename a branch:
+            git branch -m <new_branch_name>
+            git branch -m <old_branch_name> <new_branch_name>
+            git push origin :<old_branch_name> <new_branch_name>            
 
 1. rm
 
