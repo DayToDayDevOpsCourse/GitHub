@@ -74,7 +74,7 @@
         20.11. try this command: gitk
         20.12. try this command: git re-parse <branchName>
         20.13. try this command: git reflog
-        20.14. try this command: git log --abbrev-commit --pretty=online
+        20.14. try this command: git log --abbrev-commit --pretty=oneline
         20.15. try this command: git log -g <branchName>
         20.16. try this command: git log --pretty=format: '%h %s' --graph
         20.17. try this command: git log -4 --pretty=format: '%h %s'
