@@ -53,6 +53,16 @@ git log --grep="commit message"
 
 git log -- filename.py filename.java
 
+git log -S"content" (search the code in the file)
+
+git log -G".*line.*" (If you want to search using a regular expression instead of a string, you can use the -G"<regex>" flag instead)
+
+git log master..branch-1 (The master..branch-1 range contains all of the commits that are in the branch-1 branch, but aren’t in the master branch. In other words, this is how far branch-1 has progressed since it forked off of master.)
+
+git log --no-merges (Filtering Merge Commits)
+
+git log --merges (lists the merge commits)
+
 ```
 
 1. status
