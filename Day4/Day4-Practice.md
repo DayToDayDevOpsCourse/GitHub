@@ -157,18 +157,26 @@
 
       29. git diff:
       
-      git diff commit-id-1..commit-id-2
+            git diff commit-id-1..commit-id-2
+
+            git diff commit-id-1 commit-id-2
+
+            git diff --oneline --name-status commit-id-1
+
+            git diff --oneline --name-status commit-id-1 HEAD
+
+            git diff --oneline --name-status commit-id-1 commit-id-2
+
+            git diff branch-1 branch-2
+
+            git diff branch-1..branch-2
+
+            git diff branch-1..branch-2 > diff.patch
+
+      30. ex: 
       
-      git diff commit-id-1 commit-id-2
-      
-      git diff --oneline --name-status commit-id-1
-      
-      git diff --oneline --name-status commit-id-1 HEAD
-      
-      git diff --oneline --name-status commit-id-1 commit-id-2
-      
-      git diff branch-1 branch-2
-      
-      git diff branch-1..branch-2
-      
-      git diff branch-1..branch-2 > diff.patch
+          --> Modify two files
+          --> git add . -v (this will add the modified files from unstaged area to staged area)
+          --> git status
+          --> git reset HEAD -- filenameone.txt (This will remove the filenameone.txt from stage area i.e., it will move the filenameone.txt from staged area to unstaged area)
+          --> git status
