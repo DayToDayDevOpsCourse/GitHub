@@ -137,7 +137,6 @@
             
 1. log: Refer: https://www.atlassian.com/git/tutorials/git-log
 
-            ```
             git log
 
             git log -3
@@ -180,8 +179,6 @@
 
             git log --merges (lists the merge commits)
 
-            ```
-
 1. branch
 
             git branch  or git branch -l
@@ -220,7 +217,6 @@
 
 1. reset
 
-            ```
             git log -3
 
             git add .
@@ -238,8 +234,6 @@
             git reset --mixed origin/branchName
 
             git log -3
-
-            ```
 
 1. diff
 
@@ -261,6 +255,14 @@
             
             git diff <tagName1> <tagName2> --> Differences between two tags (indirectly its difference between two commit-id)
             
+            git diff --name-only [commit-id|branchName|tagName] [commit-id|branchName|tagName]
+
+1. rm
+
+            git rm fileName
+            
+            git rm -rf .
+
 1. checkout
 
             git checkout branchName
@@ -282,7 +284,7 @@
             git branch -m <old_branch_name> <new_branch_name>
             git push origin :<old_branch_name> <new_branch_name>            
 
-1. rm
+
 
 1. reflog
 
