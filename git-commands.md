@@ -23,6 +23,8 @@
 ```
 git log
 
+git log -3
+
 git log --oneline
 
 git log -p (if you want to see the actual changes in each file & each commit)
