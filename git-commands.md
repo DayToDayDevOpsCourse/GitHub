@@ -12,6 +12,8 @@
 
 1. merge
 
+1. cherry-pick 
+
 1. fetch
 
 1. config
