@@ -31,10 +31,12 @@
             git pull origin branchName
             
             git pull origin master
-            
+       
+       fetch vs pull:
+       
             local branche recent commitds are the in .git\refs\heads
             remote branche recent commitds are the in .git\refs\remotes
-
+       
             Open all the files in notepad
             
             run the git command in the terminal - git fetch
@@ -45,13 +47,80 @@
             
             go to notepad and see which are the files are changed with commit ids - only the remove branch commit ids changed, and working tree will be updated with remote chages.
 
+1. show
+
+            git show or git show HEAD
+
 1. commit
+
+            git commit -m "commit message"
+
+            git commit --amend -m "commit message"
+
+            practice: 
+            git show
+
+            git log -3
+
+            update the files
+
+            git add .
+
+            git commit -m "commit message"
+
+            git show 
+
+            git log -3
+
+            update the files
+
+            git add .
+
+            git commit --amend -m "commit message"
+
+            git log -3
+
+            git show
 
 1. push
 
+            git push
+
+            git push origin branchName
+
+            practice:
+
+            git checkout branch-1
+
+            do some commit but don't push
+
+            git checkout branch-2
+
+            do some commit but don't push
+
+            git push origin branch-1
+
+            git push origin branch-2 or git push (since we are in the working tree branch-2)
+
 1. merge
 
+            git merge bracnhName
+            
+            git merge --abort (Abort the current conflict resolution process, and try to reconstruct the pre-merge state.)
+            
+            git merge --continue (After a git merge stops due to conflicts you can conclude the merge by running this command)
+
 1. cherry-pick 
+
+            git cherry-pick commit-id
+            
+            git cherry-pick commit-id-1..commit-id-2
+            
+            git cherry-pick --continue
+            
+            git cherry-pick --quit
+            
+            git cherry-pick --abort
 
 1. config
 
