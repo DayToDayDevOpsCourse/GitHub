@@ -2,18 +2,14 @@
 
 1. clone
 
-            ```
             git clone GitURL
 
             git clone GitURL destinationPath
 
             git clone -b <branchName> <gitURL> <destinationPath>
 
-            ```
-
 1. add
 
-            ```
             git add file1 file1
 
             git add dir/
@@ -21,11 +17,33 @@
             git add .
             
             git add dir/ -v
+
+1. fetch
+
+            git fetch
             
-            
-            ```
+            git fetch origin branchName
 
 1. pull
+
+            git pull
+            
+            git pull origin branchName
+            
+            git pull origin master
+            
+            local branche recent commitds are the in .git\refs\heads
+            remote branche recent commitds are the in .git\refs\remotes
+
+            Open all the files in notepad
+            
+            run the git command in the terminal - git fetch
+            
+            go to notepad and see which are the files are changed with commit ids - only the remove branch commit ids changed, and working tree will not be updated with remote chages
+            
+            now, run the git command in the terminal - git pull
+            
+            go to notepad and see which are the files are changed with commit ids - only the remove branch commit ids changed, and working tree will be updated with remote chages.
 
 1. commit
 
@@ -34,8 +52,6 @@
 1. merge
 
 1. cherry-pick 
-
-1. fetch
 
 1. config
 
