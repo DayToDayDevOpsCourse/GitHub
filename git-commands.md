@@ -318,7 +318,7 @@
 
             git revert commit-id
 
-1. archive 
+1. archive (try this on linux machine)
             
             ex: git archive --format=zip --output=zipName.zip HEAD:dir/subDir/
 
