@@ -20,6 +20,24 @@
 
 1. log
 
+```
+git log
+
+git log --oneline
+
+git log -p (if you want to see the actual changes in each file & each commit)
+
+git log --abbrev-commit --pretty=oneline
+
+git log --oneline --decorate
+
+git log --graph --oneline --decorate
+
+git log --pretty=format:"%cn committed %h on %cd"
+
+git shortlog or git shortlog -n (git shortlog sorts the output by author name, but you can also pass the -n option to sort by the number of commits per author.)
+```
+
 1. status
 
 1. branch
