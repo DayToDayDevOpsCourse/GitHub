@@ -69,31 +69,52 @@
 
 1. branch
 
-1. show
+1. show - it shows recent/head commit id changes
 
 1. tag
 
 1. reset
 
+            ```
+            git log -3
+
+            git add .
+
+            git commit -m "hard"
+
+            git reset --hard origin/branchName
+
+            git log -3
+
+            git add .
+
+            git commit -m "mixed"
+
+            git reset --mixed origin/branchName
+
+            git log -3
+
+            ```
+
 1. diff
 
-    ```
-          git diff commit-id-1..commit-id-2
+            ```
+            git diff commit-id-1..commit-id-2
 
-          git diff commit-id-1 commit-id-2
+            git diff commit-id-1 commit-id-2
 
-          git diff --oneline --name-status commit-id-1
+            git diff --oneline --name-status commit-id-1
 
-          git diff --oneline --name-status commit-id-1 HEAD
+            git diff --oneline --name-status commit-id-1 HEAD
 
-          git diff --oneline --name-status commit-id-1 commit-id-2
+            git diff --oneline --name-status commit-id-1 commit-id-2
 
-          git diff branch-1 branch-2
-          
-          git diff branch-1..branch-2
-          
-          git diff branch-1..branch-2 > diff-branch1-branch2.patch
-    ```
+            git diff branch-1 branch-2
+
+            git diff branch-1..branch-2
+
+            git diff branch-1..branch-2 > diff-branch1-branch2.patch
+            ```
 
 1. checkout
 
