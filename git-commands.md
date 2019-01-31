@@ -18,7 +18,7 @@
 
 1. config
 
-1. log
+1. log: Refer: https://www.atlassian.com/git/tutorials/git-log
 
 ```
 git log
@@ -38,6 +38,21 @@ git log --graph --oneline --decorate
 git log --pretty=format:"%cn committed %h on %cd"
 
 git shortlog or git shortlog -n (git shortlog sorts the output by author name, but you can also pass the -n option to sort by the number of commits per author.)
+
+git log --after="yesterday"
+
+git log --after="2019-01-30"
+
+git log --after="2019-1-28" --before="2019-01-30"
+
+git log --author="username"
+
+git log --author="user1\|uder2" (user1 or user2)
+
+git log --grep="commit message"
+
+git log -- filename.py filename.java
+
 ```
 
 1. status
