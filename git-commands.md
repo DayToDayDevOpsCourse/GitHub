@@ -2,16 +2,28 @@
 
 1. clone
 
-```
-git clone GitURL
+            ```
+            git clone GitURL
 
-git clone GitURL destinationPath
+            git clone GitURL destinationPath
 
-git clone -b <branchName> <gitURL> <destinationPath>
+            git clone -b <branchName> <gitURL> <destinationPath>
 
-```
+            ```
 
 1. add
+
+            ```
+            git add file1 file1
+
+            git add dir/
+
+            git add .
+            
+            git add dir/ -v
+            
+            
+            ```
 
 1. pull
 
