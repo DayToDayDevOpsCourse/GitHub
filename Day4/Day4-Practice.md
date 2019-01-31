@@ -154,3 +154,21 @@
       === Preapre a document if you find something new and share with all our DevOps team members. ===
 
       28. https://help.github.com/articles/duplicating-a-repository/
+
+      29. git diff:
+      
+      git diff commit-id-1..commit-id-2
+      
+      git diff commit-id-1 commit-id-2
+      
+      git diff --oneline --name-status commit-id-1
+      
+      git diff --oneline --name-status commit-id-1 HEAD
+      
+      git diff --oneline --name-status commit-id-1 commit-id-2
+      
+      git diff branch-1 branch-2
+      
+      git diff branch-1..branch-2
+      
+      git diff branch-1..branch-2 > diff.patch
