@@ -22,6 +22,14 @@
             
             git add dir/ -v
 
+1. rm
+
+            git rm fileName
+            
+            git rm -rf .
+            
+            ex: git rm Dir/\*.txt ---> Removes all *.txt files from the index that are under the Documentation directory and any of its subdirectories.
+
 1. fetch
 
             git fetch
@@ -152,9 +160,7 @@
             git log --graph --oneline --decorate
 
             git log --pretty=format:"%cn committed %h on %cd"
-
-            git shortlog or git shortlog -n (git shortlog sorts the output by author name, but you can also pass the -n option to sort by the number of commits per author.)
-
+            
             git log --after="yesterday"
 
             git log --after="2019-01-30"
@@ -178,6 +184,10 @@
             git log --no-merges (Filtering Merge Commits)
 
             git log --merges (lists the merge commits)
+
+            git shortlog or git shortlog -n (git shortlog sorts the output by author name, but you can also pass the -n option to sort by the number of commits per author.)
+
+            git reflog or git reflog show
 
 1. branch
 
@@ -257,12 +267,6 @@
             
             git diff --name-only [commit-id|branchName|tagName] [commit-id|branchName|tagName]
 
-1. rm
-
-            git rm fileName
-            
-            git rm -rf .
-
 1. checkout
 
             git checkout branchName
@@ -284,18 +288,40 @@
             git branch -m <old_branch_name> <new_branch_name>
             git push origin :<old_branch_name> <new_branch_name>            
 
+1. rev-parse
 
+            git rev-parse --> it will return the latest commitid
+            
+            git rev-parse --show-toplevel --> it will return the git project/repo path
+            
+1. rev-list
+            
+            git rev-list --all
+            
+            git rev-list --all --max-count=5
+            
+            git rev-list branch-1...branch-2
+            
+1. remote
 
-1. reflog
-
-1. re-parse
-
-1. remote 
+            git remote -v
+            
+            ex:
+            echo "# sample" >> README.md
+            git init
+            git add README.md
+            git commit -m "first commit"
+            git remote add origin https://github.com/DayToDayDevOpsCourse/sample.git
+            git push -u origin master
 
 1. revert 
 
-1. rebase 
+            git revert commit-id
 
 1. archive 
+            
+            ex: git archive --format=zip --output=zipName.zip HEAD:dir/subDir/
+
+            ex: https://github.com/DayToDayDevOpsCourse/GitHubDayToDayCourse/blob/master/Day4/sampleDir/sample.txt
 
 1. gitk
