@@ -2,6 +2,15 @@
 
 1. clone
 
+```
+git clone GitURL
+
+git clone GitURL destinationPath
+
+git clone -b <branchName> <gitURL> <destinationPath>
+
+```
+
 1. add
 
 1. pull
@@ -131,3 +140,5 @@
 1. rebase 
 
 1. archive 
+
+1. gitk
