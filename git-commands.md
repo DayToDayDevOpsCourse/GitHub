@@ -32,6 +32,24 @@
 
 1. diff
 
+    ```
+          git diff commit-id-1..commit-id-2
+
+          git diff commit-id-1 commit-id-2
+
+          git diff --oneline --name-status commit-id-1
+
+          git diff --oneline --name-status commit-id-1 HEAD
+
+          git diff --oneline --name-status commit-id-1 commit-id-2
+
+          git diff branch-1 branch-2
+          
+          git diff branch-1..branch-2
+          
+          git diff branch-1..branch-2 > diff-branch1-branch2.patch
+    ```
+
 1. checkout
 
 1. rm
