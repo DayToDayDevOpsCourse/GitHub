@@ -20,50 +20,50 @@
 
 1. log: Refer: https://www.atlassian.com/git/tutorials/git-log
 
-```
-git log
+            ```
+            git log
 
-git log -3
+            git log -3
 
-git log --oneline
+            git log --oneline
 
-git log -p (if you want to see the actual changes in each file & each commit)
+            git log -p (if you want to see the actual changes in each file & each commit)
 
-git log --abbrev-commit --pretty=oneline
+            git log --abbrev-commit --pretty=oneline
 
-git log --oneline --decorate
+            git log --oneline --decorate
 
-git log --graph --oneline --decorate
+            git log --graph --oneline --decorate
 
-git log --pretty=format:"%cn committed %h on %cd"
+            git log --pretty=format:"%cn committed %h on %cd"
 
-git shortlog or git shortlog -n (git shortlog sorts the output by author name, but you can also pass the -n option to sort by the number of commits per author.)
+            git shortlog or git shortlog -n (git shortlog sorts the output by author name, but you can also pass the -n option to sort by the number of commits per author.)
 
-git log --after="yesterday"
+            git log --after="yesterday"
 
-git log --after="2019-01-30"
+            git log --after="2019-01-30"
 
-git log --after="2019-1-28" --before="2019-01-30"
+            git log --after="2019-1-28" --before="2019-01-30"
 
-git log --author="username"
+            git log --author="username"
 
-git log --author="user1\|uder2" (user1 or user2)
+            git log --author="user1\|uder2" (user1 or user2)
 
-git log --grep="commit message"
+            git log --grep="commit message"
 
-git log -- filename.py filename.java
+            git log -- filename.py filename.java
 
-git log -S"content" (search the code in the file)
+            git log -S"content" (search the code in the file)
 
-git log -G".*line.*" (If you want to search using a regular expression instead of a string, you can use the -G"<regex>" flag instead)
+            git log -G".*line.*" (If you want to search using a regular expression instead of a string, you can use the -G"<regex>" flag instead)
 
-git log master..branch-1 (The master..branch-1 range contains all of the commits that are in the branch-1 branch, but aren’t in the master branch. In other words, this is how far branch-1 has progressed since it forked off of master.)
+            git log master..branch-1 (The master..branch-1 range contains all of the commits that are in the branch-1 branch, but aren’t in the master branch. In other words, this is how far branch-1 has progressed since it forked off of master.)
 
-git log --no-merges (Filtering Merge Commits)
+            git log --no-merges (Filtering Merge Commits)
 
-git log --merges (lists the merge commits)
+            git log --merges (lists the merge commits)
 
-```
+            ```
 
 1. status
 
