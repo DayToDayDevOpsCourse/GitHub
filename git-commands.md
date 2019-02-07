@@ -325,3 +325,30 @@
             ex: https://github.com/DayToDayDevOpsCourse/GitHubDayToDayCourse/blob/master/Day4/sampleDir/sample.txt
 
 1. gitk
+
+## Examples:
+
+1. Clone only the subfolder and push
+
+
+            git clone --no-checkout gitURL
+
+            cd gitrepo
+
+            git config core.sparseCheckout true
+
+            echo "src/main/*"> .git/info/sparse-checkout
+
+            git checkout master
+            
+            Update the code
+            
+            git status
+
+            git add modified-files-path (don't use git add . )
+            
+            git status
+
+            git commit -m "local commit"
+
+            git push
