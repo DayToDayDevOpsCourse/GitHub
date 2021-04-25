@@ -13,7 +13,7 @@
           2. Download the tortoiseGit from https://tortoisegit.org/ (this is also a git client, try this. Restart your machine if you don't see the colors on the local repo folders/files.)
           3. DO NOT clone any repository on desktop or directly under C driver or under username. Create new folder, give meaning name and then clone git repo.
 
-      2. Clone the GitHub repo to your local machine. (using any client Git bash, TortoiseGit, etc)
+      2. Clone the GitHub repo to your local machine. (using any client Git bash, TortoiseGit, or your favorite git client source tree, GitHub Desktop etc)
 
         Syntax: git clone <gitURL> <destinationPath>
 
