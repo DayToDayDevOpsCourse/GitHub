@@ -10,7 +10,8 @@
       
         Note:
           1. Download the git scm from https://git-scm.com/ which is the client to communicate with the serevr GitHub.com.
-          2. Download the tortoiseGit from https://tortoisegit.org/ (this is also a client, just try this. Restart your machine if you don't see the colors on the local repo folders/files.)       
+          2. Download the tortoiseGit from https://tortoisegit.org/ (this is also a git client, try this. Restart your machine if you don't see the colors on the local repo folders/files.)
+          3. DO NOT clone any repository on desktop or directly under C driver or under username. Create new folder, give meaning name and then clone git repo.
 
       2. Clone the GitHub repo to your local machine. (using any client Git bash, TortoiseGit, etc)
 
