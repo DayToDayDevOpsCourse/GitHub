@@ -60,9 +60,9 @@
       
         Syntax: git push origin <commit-id>:<branchName>
         
- # Bitbucket
+ # Bitbucket & GitLab
  
-      Practice the same above steps with Bitbucket https://bitbucket.org/ (This is the similar tool to GitHub).
+      Practice the same above steps with Bitbucket https://bitbucket.org/ and GitLab https://gitlab.com/ (This is the similar tool to GitHub).
       
       Parallelly you can learn both the tools since operations(git commands & worlflow, branching, merging, tagging etc) wise both are same.
 
