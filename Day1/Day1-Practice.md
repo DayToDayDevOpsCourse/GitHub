@@ -11,9 +11,11 @@
         Note:
           1. Download the git scm from https://git-scm.com/ which is the client to communicate with the serevr GitHub.com.
           2. Download the tortoiseGit from https://tortoisegit.org/ (this is also a git client, try this. Restart your machine if you don't see the colors on the local repo folders/files.)
-          3. DO NOT clone any repository on desktop or directly under C driver or under username. Create new folder, give meaning name and then clone git repo.
+          3. Other git clients SourceTree, GitHub Desktop, GitKraken, SmartGit etc
+          4. IDE: Eclipse, IntelliJ IDEA, Visual Studio Code(VS Code), STS etc
+          5. DO NOT clone any repository on desktop or directly under C drive or under username. Create new folder, give meaningful name and then clone git repo.
 
-      2. Clone the GitHub repo to your local machine. (using any client Git bash, TortoiseGit, or your favorite git client source tree, GitHub Desktop etc)
+      2. Clone the GitHub repo to your local machine. (using any client Git bash, TortoiseGit, or your favorite git client source tree,  etc)
 
         Syntax: git clone <gitURL> <destinationPath>
 
