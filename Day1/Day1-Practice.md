@@ -15,16 +15,17 @@
           4. IDE: Eclipse, IntelliJ IDEA, Visual Studio Code(VS Code), STS etc
           5. DO NOT clone any repository on desktop or directly under C drive or under username. Create new folder, give meaningful name and then clone git repo.
 
-      2. Clone the GitHub repo to your local machine. (using any client Git bash, TortoiseGit, or your favorite git client source tree,  etc)
+      2. Configure username & emailid.
+      
+          git config --global user.email "you@example.com"
+          git config --global user.name "Your Name"
+         
+      3. Clone the GitHub repo to your local machine. (using any client Git bash, TortoiseGit, or your favorite git client source tree,  etc)
 
         Syntax: git clone <gitURL> <destinationPath>
 
         Ex: git clone https://github.com/venkatasykam/FirstJavaProject.git <destinationPath>
 
-      3. Configure username & emailid.
-      
-          git config --global user.email "you@example.com"
-          git config --global user.name "Your Name"
 
       4. Add the new files/code to repo.
 
