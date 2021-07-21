@@ -376,3 +376,12 @@
             3. git pull
             
             4. go ahead with your development (your code commit & push)
+
+1. Restore: Moved all the files from unstaged area to staged area, and realized that one file wants to move back to unstaged area, then use git restore command.
+
+            1. git clone repo
+            2. git add some file file1.txt file2.txt
+            3. git status
+            4. git restore --staged file1.txt
+            5. git status
+            
